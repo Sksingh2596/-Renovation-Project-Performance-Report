@@ -1,1 +1,34 @@
-sql
+
+🎯 Create Database & Schema
+
+CREATE DATABASE RenovationDB;
+GO
+
+USE RenovationDB;
+GO
+
+CREATE SCHEMA dbo;
+GO
+
+🧱 Vendors Table
+
+CREATE TABLE dbo.vendors_info (
+    Vendor NVARCHAR(50),
+    Avg_Cost_Per_Store INT,
+    Delivery_Time_Weeks INT,
+    Warranty_Years INT
+);
+
+🧱 Renovation Projects Table
+
+CREATE TABLE dbo.renovation_info (
+    Store_ID INT,
+    Store_Location NVARCHAR(50),
+    Vendor NVARCHAR(50),
+    Renovation_Cost INT,
+    Projected_Revenue_Uplift INT,
+    Energy_Savings INT,
+    Renovation_Start_Date DATE,
+    Renovation_End_Date DATE,
+    Status NVARCHAR(50)
+);
