@@ -1,0 +1,26 @@
+CREATE VIEW vw_StoreRenovationReport AS
+SELECT
+    r.Store_ID,
+    r.Store_Location,
+    r.Vendor,
+    v.Avg_Cost_Per_Store,
+    v.Delivery_Time_Weeks,
+    v.Warranty_Years,
+    r.Renovation_Cost,
+    r.Projected_Revenue_Uplift,
+    r.Energy_Savings,
+    r.Renovation_Start_Date,
+    r.Renovation_End_Date,
+    r.Status,
+    (r.Projected_Revenue_Uplift + r.Energy_Savings) AS Total_Benefit,
+    ROUND(
+        CAST((r.Projected_Revenue_Uplift + r.Energy_Savings - r.Renovation_Cost) AS FLOAT) 
+        / NULLIF(r.Renovation_Cost, 0) * 100, 
+        2
+    ) AS ROI_Percentage,
+    DATEDIFF(DAY, r.Renovation_Start_Date, r.Renovation_End_Date) AS Renovation_Duration_Days
+FROM 
+    dbo.renovation_info r
+LEFT JOIN 
+    dbo.vendors_info v 
+    ON r.Vendor = v.Vendor;
