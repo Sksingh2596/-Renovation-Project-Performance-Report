@@ -1,4 +1,4 @@
-#Renovation Project Performance Report:
+Renovation Project Performance Report:
 
 📌 Executive Summary
 
