@@ -1,0 +1,16 @@
+﻿Store_ID,Store_Location,Vendor,Renovation_Cost,Projected_Revenue_Uplift,Energy_Savings,Renovation_Start_Date,Renovation_End_Date,Status
+101,Vancouver,B,45000,65000,5000,4/1/2024,4/20/2024,Completed
+102,Burnaby,B,46000,63000,4800,4/5/2024,4/25/2024,Completed
+103,Richmond,B,45500,64000,5100,4/10/2024,4/30/2024,Completed
+104,Surrey,B,47000,62000,5200,5/1/2024,5/21/2024,Completed
+105,Langley,B,44000,66000,4700,5/10/2024,5/30/2024,Completed
+106,Kelowna,B,45500,64500,4900,5/15/2024,6/5/2024,In Progress
+107,Victoria,B,46000,63500,5000,5/20/2024,6/10/2024,In Progress
+108,Nanaimo,B,45000,62500,4800,6/1/2024,6/20/2024,In Progress
+109,Kamloops,B,45500,65000,5100,6/5/2024,6/25/2024,Not Started
+110,Prince George,B,44500,66000,4700,6/10/2024,6/30/2024,Not Started
+111,Coquitlam,B,46000,64000,4900,6/15/2024,7/5/2024,Not Started
+112,Abbotsford,B,45000,63000,5000,6/20/2024,7/10/2024,Not Started
+113,Chilliwack,B,45500,62000,5100,6/25/2024,7/15/2024,Not Started
+114,Penticton,B,44000,67000,4800,7/1/2024,7/20/2024,Not Started
+115,Mission,B,45000,65000,5000,7/5/2024,7/25/2024,Not Started
