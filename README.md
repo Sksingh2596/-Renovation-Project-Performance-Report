@@ -3,6 +3,7 @@ Renovation Project Performance Report:
 📌 Executive Summary
 
 This report analyzes the performance of 15 simulated store renovation projects for Best Buy using dummy data. The goal was to measure project efficiency, vendor performance, ROI, and location-specific insights using SQL-based data modeling and Tableau visualizations.
+
 📁 1. Data Sources & Structure
 🧾 Tables Created:
 
