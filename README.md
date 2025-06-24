@@ -5,6 +5,7 @@ Renovation Project Performance Report:
 This report analyzes the performance of 15 simulated store renovation projects for Best Buy using dummy data. The goal was to measure project efficiency, vendor performance, ROI, and location-specific insights using SQL-based data modeling and Tableau visualizations.
 
 📁 1. Data Sources & Structure
+
 🧾 Tables Created:
 
     vendors_info: Vendor quotes, delivery time, and warranty
@@ -12,9 +13,13 @@ This report analyzes the performance of 15 simulated store renovation projects f
     renovation_info: Project-level renovation cost, uplift, energy savings, timeline
 
 🛠️ 2. SQL Queries Used
+
 🎯 Create Database & Schema
+
 🧱 Vendors Table
+
 🧱 Renovation Projects Table
+
 🔁 View: Business Report
 
 📊 3. Tableau Dashboard
