@@ -1,0 +1,57 @@
+Business Report: Renovation Project Performance
+
+Executive Summary:
+
+This report evaluates the performance and efficiency of 15 simulated Best Buy store renovation projects,
+utilizing SQL-based data modeling and Tableau visualizations. The key performance indicators analyzed
+include vendor performance, return on investment (ROI), project duration, and geographical insights.
+
+📊 Data Sources & Structure:
+
+The data utilized for the analysis was structured into two main tables:
+
+vendors_info 📋: Vendor-specific details such as average cost per store, delivery timelines, and
+warranty periods.
+
+renovation_info 🏗️: Renovation costs, expected revenue uplift, energy savings, timelines, and
+project status.
+
+🔍 Analytical Methods:
+
+SQL was employed to create a comprehensive view (vw_StoreRenovationReport) combining data from the
+two tables, enhancing vendor performance visibility, project efficiency, and ROI metrics. Tableau
+dashboards provided interactive visual insights to identify trends and strategic opportunities.
+
+📈 Key Findings:
+
+🔄 Vendor Selection: Multiple vendors were evaluated; Vendor B was chosen for cost-effectiveness
+and successfully negotiated to extend warranty from 1 year to 2 years.
+
+✅ Project Completion: 67% completed successfully.
+
+💲 Financial Analysis:
+
+Total Cost: \$1,359,000 | Projected Revenue: \$1,925,000
+
+ROI: >50% overall
+
+⏳ Average Duration: 20-25 days
+
+📍 Geographic Insights:
+
+📌 Burnaby & Surrey: Opportunities identified due to lower renovation activity.
+
+🗒️ Recommendations:
+
+Engage with efficient vendors (shorter delivery time, higher warranty).
+Enhance investment in Burnaby and Surrey.
+Leverage continuous monitoring with Tableau dashboards for proactive decision-making.
+
+🎯 Conclusion:
+The analysis confirms strong performance in the simulated renovations, validating strategic investments
+and pinpointing targeted improvement areas. SQL and Tableau integration significantly supports informed
+strategic decision-making.
+
+🚨 Disclaimer:
+This report is based on fictional data intended solely for educational and demonstrational purposes. No
+actual business decisions should be derived from this analysis.
